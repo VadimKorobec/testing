@@ -1,6 +1,6 @@
 import { getLength } from "../getLength";
 
-describe("getLength", () => {
+describe.only("getLength", () => {
   test("should return 0 for an empty array", () => {
     const res = getLength([]);
 

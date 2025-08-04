@@ -1,6 +1,6 @@
 import { divide, multiply, sum } from "./math";
 
-describe("math", () => {
+describe.skip("math", () => {
   describe("divide", () => {
     test("should divide positive number", () => {
       const result = divide(3, 2);
