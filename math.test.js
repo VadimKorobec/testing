@@ -40,24 +40,24 @@ describe("math", () => {
       expect(result).toBe(-6);
     });
   });
-    
+
   describe("sum", () => {
     test("should sum positive number", () => {
       const result = sum(3, 2);
 
       expect(result).toBe(5);
     });
-      
-      test("should sum negative number", () => {
-        const result = sum(-3, -2);
 
-        expect(result).toBe(-5);
-      });
+    test("should sum negative number", () => {
+      const result = sum(-3, -2);
 
-      test("should sum positive and negative number", () => {
-        const result = sum(-3, 2);
+      expect(result).toBe(-5);
+    });
 
-        expect(result).toBe(-1);
-      });
+    test("should sum positive and negative number", () => {
+      const result = sum(-3, 2);
+
+      expect(result).toBe(-1);
+    });
   });
 });
